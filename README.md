@@ -1,5 +1,4 @@
-<!DOCTYPE html> 
-<html> 
+ <html> 
  
 <head> 
  <meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -9,8 +8,8 @@
  
  <h1>Simple Conditions</h1> 
  
- <button onclick="smplechk();">Simple Validate</button> 
- <button onclick="difichk();">Dificult Validate</button> 
+ <button onclick="smplechk();">SALIR-DE-LA-PAGINA</button> 
+ 
  
  <script> 
   //Simple Way 
@@ -20,7 +19,7 @@
  
    if ([1, 2, 3, 4, 5, 6, 7, 8, 9].indexOf(num) != -1) 
    { 
-    alert("Hola te invito a registrarte en newsletter:"); 
+    alert("¿Ya-te-vas?--TE-INVITO-A-REGISTRARTE-EN-NEWSLETTER-SOLO-USA-MI-RUTA-EN-TU-NAVEGADOR:"); 
    } 
   } 
  
