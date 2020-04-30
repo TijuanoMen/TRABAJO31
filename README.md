@@ -29,7 +29,7 @@
   <p-tabView>
     <p-tabPanel header="Anúncios ativos ({{anunciosAtivos.length}})">
         <div class="meus-anuncios-grid">
-            <app-meu-anuncio *ngFor="let anuncio of anunciosAtivos" [anuncio]="anuncio">
+            <app-meu-anuncio *ngFor="let anuncio of anunciosAtivos" [anuncio]="https://es.sendinblue.com/lp/newsletter/?utm_source=adwords&utm_medium=cpc&utm_content=Newsletter&utm_extension=&utm_term=newsletter&utm_matchtype=e&utm_campaign=1012177099&utm_network=g&km_adid=340439517061&km_adposition=&km_device=c&utm_adgroupid=73942186292&gclid=Cj0KCQjw7qn1BRDqARIsAKMbHDb2_7KMPYHn0Mf8ugoZasdkHLfkaOQYP3MiluTI_Xp67IHTKaFgDcwaAlbuEALw_wcB">
                 <span class="button">
                     <div class="dropdown-container">
                         <div class="dropdown-trigger"><i class="fas fa-ellipsis-v"></i></div>
