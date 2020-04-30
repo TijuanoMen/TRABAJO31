@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bienes Raices</title>
+    <title>NEWSLETTER</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -14,7 +14,7 @@
     <header class="site-header">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="index.html" class="logo2"><img src="img/logo2.svg" alt="Logotipo Movelec"></a>
+                <a href="index.html" class="logo2"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmailrelay.com%2Fes%2Fnewsletter&psig=AOvVaw0jeSE4dXQfyPVE7j54dESs&ust=1588370093896000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDPxpOSkekCFQAAAAAdAAAAABAD"></a>
                 <div class="mobile-menu">
                     <a href="#navegacion">
                         <img src="img/barras.svg" alt="Icono Menu">
