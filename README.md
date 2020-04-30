@@ -1,79 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <tittle>NEWSLETTER</tittle>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+<html>
 
-    <header class="site-header">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="index.html" class="logo2"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmailrelay.com%2Fes%2Fnewsletter&psig=AOvVaw0jeSE4dXQfyPVE7j54dESs&ust=1588370093896000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDPxpOSkekCFQAAAAAdAAAAABAD"></a>
-                <div class="mobile-menu">
-                    <a href="#navegacion">
-                        <img src="img/barras.svg" alt="Icono Menu">
-                    </a>
-                    
-                    
-                </div>
-                <div class="container">
-  <h2>Meus anuncios</h2>
+	<head>
+		<meta charset="utf-8">
+		<title>botones | Catálogo por piezas 2017-2018</title>
+		<link href="../css/catalogoEstilo.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	</head>
 
-  <p-confirmDialog [style]="{width: '50vw'}"></p-confirmDialog>
-  <p-tabView>
-    <p-tabPanel header="Anúncios ativos ({{anunciosAtivos.length}})">
-        <div class="meus-anuncios-grid">
-            <app-meu-anuncio *ngFor="let anuncio of anunciosAtivos" [anuncio]="https://es.sendinblue.com/lp/newsletter/?utm_source=adwords&utm_medium=cpc&utm_content=Newsletter&utm_extension=&utm_term=newsletter&utm_matchtype=e&utm_campaign=1012177099&utm_network=g&km_adid=340439517061&km_adposition=&km_device=c&utm_adgroupid=73942186292&gclid=Cj0KCQjw7qn1BRDqARIsAKMbHDb2_7KMPYHn0Mf8ugoZasdkHLfkaOQYP3MiluTI_Xp67IHTKaFgDcwaAlbuEALw_wcB">
-                <span class="button">
-                    <div class="dropdown-container">
-                        <div class="dropdown-trigger"><i class="fas fa-ellipsis-v"></i></div>
-                        <div class="dropdown-content">
-                          <div class="dropdown-link" (click)="visualizar(anuncio)">Visualizar</div>
-                          <div class="dropdown-link" (click)="atualizar(anuncio)">Atualizar</div>
-                          <div class="dropdown-link" (click)="desativar(anuncio)">Desativar</div>
-                          <div class="dropdown-link" (click)="excluir(anuncio)">Excluir</div>
-                        </div>
-                    </div>
-                  </span>
-            </app-meu-anuncio>
-        </div>
-    </p-tabPanel>
-    <p-tabPanel header="Anúncios inativos ({{anunciosInativos.length}})">
-        <div class="meus-anuncios-grid">
-            <app-meu-anuncio *ngFor="let anuncio of anunciosInativos" [anuncio]="anuncio">
-                <span class="button">
-                    <div class="dropdown-container">
-                        <div class="dropdown-trigger"><i class="fas fa-ellipsis-v"></i></div>
-                        <div class="dropdown-content">
-                          <div class="dropdown-link" (click)="atualizar(anuncio)">Atualizar</div>
-                          <div class="dropdown-link" (click)="ativar(anuncio)">Ativar</div>
-                          <div class="dropdown-link" (click)="excluir(anuncio)">Excluir</div>
+	<body>
 
-                        </div>
-                    </div>
-                  </span>
-            </app-meu-anuncio>
-          </div>
-    </p-tabPanel>
-    <p-tabPanel header="Anúncios expirados ({{anunciosExpirados.length}})">
+		<header class="cabecera">
+		     <a class="subtitulo" href="../html/catalogo.html">Catálogo Web</a>
+			 <h5 class="titulo">Botones</h5>			
+		</header>
 
-        <app-meu-anuncio *ngFor="let anuncio of anunciosExpirados" [anuncio]="anuncio">
-          <span class="button" (click)="renovar(anuncio)">Renovar</span>
-          <span class="button" (click)="excluir(anuncio)">Excluir</span>
-        </app-meu-anuncio>
+		<h6 class="descripcion">Para utilizar alguno de los siguietes diseños tan solo tiene que
+		utilizar el nombre de clase que se especifica en el modelo.</h6>
 
-    </p-tabPanel>
-</p-tabView>
+		<div class="estructura">
+			<h5>Estructura HTML recomendada</h5>
+			
+			<p><span>input type="button" class="" value=""></span></p>
+			
+		</div>
 
+		<div class="contenido01">
+			<input type="button" class="boton s1 botonCatalogo" value="boton s1">
+			<input type="button" class="boton s2 botonCatalogo" value="boton s2">
+			<input type="button" class="boton s3 botonCatalogo" value="boton s3">
+			<input type="button" class="boton s4 botonCatalogo" value="boton s4">
+			<input type="button" class="boton s5 botonCatalogo" value="boton s5">
+			<input type="button" class="boton s6 botonCatalogo" value="boton s6">
+			<input type="button" class="boton s7 botonCatalogo" value="boton s7">
+			<input type="button" class="boton s8 botonCatalogo" value="boton s8">
+			<input type="button" class="boton s9 botonCatalogo" value="boton s9">
+			<input type="button" class="boton s10 botonCatalogo" value="boton s10">
+			<input type="button" class="boton s11 botonCatalogo" value="boton s11">
+			<input type="button" class="boton s12 botonCatalogo" value="boton s12">
+			<input type="button" class="boton s13 botonCatalogo" value="boton s13">
+			<input type="button" class="boton s14 botonCatalogo" value="boton s14">
+			<input type="button" class="boton s15 botonCatalogo" value="boton s15">
+			<input type="button" class="boton s16 botonCatalogo" value="boton s16">
+			<input type="button" class="boton s17 botonCatalogo" value="boton s17">
+			<input type="button" class="boton s18 botonCatalogo" value="boton s18">
+		</div>
+     <footer>
+      <p>Desarrollo de Aplicaciones Multiplataformas - Lenguaje de Marcas 2017/2018</p>
+    </footer>
 
-</div>
-</body>
+	</body>
+
 </html>
-
-                
